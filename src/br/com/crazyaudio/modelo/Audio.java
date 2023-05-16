@@ -37,8 +37,8 @@ public class Audio {
         return totalDeCurtidas;
     }
 
-    public void setTotalDeCurtidas(int totalDeCurtidas) {
-        this.totalDeCurtidas = totalDeCurtidas;
+    public void setTotalDeCurtidas() {
+        this.totalDeCurtidas++;
     }
 
     public double getNotaDeClassificacao() {
